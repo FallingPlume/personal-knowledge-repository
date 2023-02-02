@@ -11,6 +11,12 @@ export const zhSidebar = sidebar({
       prefix: "/java/javabase/",
       collapsible: true,
       children: ["基础语法.md"]
+    },
+    {
+      text: "面试宝典",
+      prefix: "/java/interview/",
+      collapsible: true,
+      children: ["Java 基础题.md"]
     }
   ]
 });
