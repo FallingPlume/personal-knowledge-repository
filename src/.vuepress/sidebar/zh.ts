@@ -16,7 +16,7 @@ export const zhSidebar = sidebar({
       text: "面试宝典",
       prefix: "/java/interview/",
       collapsible: true,
-      children: ["Java 基础题.md"]
+      children: ["Java 基础.md"]
     }
   ]
 });
