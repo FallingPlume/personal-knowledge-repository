@@ -8,27 +8,29 @@ export const zhSidebar = sidebar({
     "",
     {
       text: "Java 基础",
-      prefix: "/java/javabase/",
-      collapsible: true,
-      children: ["基础语法.md"]
+      prefix: "/java/Java 基础/",
+      children: [
+        "基础语法.md"
+      ]
     },
     {
       text: "面试宝典",
-      prefix: "/java/interview/",
-      collapsible: true,
-      children: ["Java 基础.md"]
+      prefix: "/java/面试/",
+      children: [
+        "Java 基础.md"
+      ]
     }
   ],
   "/unity/": [
+    "",
+    "三维数学.md",
     {
       text: "Input System 中文文档",
       link: "/unity/Input System 中文文档",
-      collapsible: true,
       children: [
         {
           text: "指引",
           prefix: "/unity/Input System 中文文档/指引",
-          collapsible: true,
           children: [
             "安装.md",
             "快速开始.md",
@@ -43,7 +45,6 @@ export const zhSidebar = sidebar({
         },
         {
           text: "参考",
-          collapsible: true,
           children: []
         }
       ]

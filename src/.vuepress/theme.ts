@@ -9,13 +9,21 @@ export default hopeTheme({
     name: "Numerous"
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_3877102_cbp93pnd7i5.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3877102_g897d91z5a5.css",
 
-  logo: "/logo.svg",
+  logo: "/head_image.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "FallingPlume/personal-knowledge-repository",
 
   docsDir: "demo/theme-docs/src",
+
+  themeColor: {
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+
+  fullscreen: true,
 
   locales: {
 
@@ -48,11 +56,11 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      // provider: "Giscus",
-      // repo: "vuepress-theme-hope/giscus-discussions",
-      // repoId: "R_kgDOG_Pt2A",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOG_Pt2M4COD69",
+      provider: "Giscus",
+      repo: "vuepress-theme-hope/giscus-discussions",
+      repoId: "R_kgDOG_Pt2A",
+      category: "Announcements",
+      categoryId: "DIC_kwDOG_Pt2M4COD69",
 
       /**
        * Using Twikoo
@@ -63,8 +71,8 @@ export default hopeTheme({
       /**
        * Using Waline
        */
-      provider: "Waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      // provider: "Waline",
+      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 
     // Disable features you don’t want here
