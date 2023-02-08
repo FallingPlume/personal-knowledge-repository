@@ -13,6 +13,8 @@ export default hopeTheme({
 
   logo: "/head_image.png",
 
+  favicon: "/head_image.png",
+
   repo: "FallingPlume/personal-knowledge-repository",
 
   docsDir: "demo/theme-docs/src",
