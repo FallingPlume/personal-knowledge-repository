@@ -6,16 +6,16 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Numerous"
+    name: "MiooYuki"
   },
 
   iconAssets: "//at.alicdn.com/t/c/font_3877102_g897d91z5a5.css",
 
   logo: "/head_image.png",
 
-  favicon: "/head_image.png",
+  favicon: "/logo.png",
 
-  repo: "FallingPlume/personal-knowledge-repository",
+  repo: "/MiooYuki/personal-knowledge-repository",
 
   docsDir: "demo/theme-docs/src",
 
@@ -38,8 +38,6 @@ export default hopeTheme({
 
       // sidebar
       sidebar: zhSidebar,
-
-      footer: "默认页脚",
 
       displayFooter: true,
 

@@ -7,7 +7,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Numerous 的知识库",
+      title: "MiooYuki の 知识库",
       description: "vuepress-theme-hope 的文档演示",
     },
   },

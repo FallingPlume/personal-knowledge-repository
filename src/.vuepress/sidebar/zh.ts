@@ -27,6 +27,12 @@ export const zhSidebar = sidebar({
     {
       text: "Input System 中文文档",
       link: "/unity/Input System 中文文档",
+    }
+  ],
+  "/unity/Input System 中文文档/": [
+    {
+      text: "Input System 中文文档",
+      link: "/unity/Input System 中文文档",
       children: [
         {
           text: "指引",

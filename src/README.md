@@ -3,7 +3,7 @@ home: true
 icon: iconfont icon-home-filling
 title: 主页
 heroImage: /head_image.png
-heroText: Numerous
+heroText: Welcome!
 tagline: 欢迎来到我的知识库。
 
 features:

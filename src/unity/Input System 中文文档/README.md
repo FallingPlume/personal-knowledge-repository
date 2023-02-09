@@ -5,3 +5,5 @@ Input System 实现了一个系统，以使用任何类型的输入设备来控�
 要开始，请参阅安装和快速开始部分。对于 Demo 项目，请参考 GitHub 上的 [Warriors demo](https://github.com/UnityTechnologies/InputSystem_Warriors) 项目。
 
 ![](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.3/manual/images/MyGameActions.png)
+
+原文档：[https://docs.unity3d.com/Packages/com.unity.inputsystem@1.3/manual/index.html](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.3/manual/index.html)
