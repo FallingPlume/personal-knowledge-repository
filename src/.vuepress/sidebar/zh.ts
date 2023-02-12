@@ -5,19 +5,42 @@ export const zhSidebar = sidebar({
     ""
   ],
   "/java/": [
-    "",
+    {
+      text: "Java",
+      link: "/java/"
+    },
     {
       text: "Java 基础",
-      prefix: "/java/Java 基础/",
-      children: [
-        "基础语法.md"
-      ]
+      link: "/java/Java 基础/基础语法.md"
     },
     {
       text: "面试宝典",
-      prefix: "/java/面试/",
+      link: "/java/面试/Java 基础.md"
+    }
+  ],
+  "/java/Java 基础": [
+    {
+      text: "Java",
+      link: "/java/"
+    },
+    {
+      text: "Java 基础",
       children: [
-        "Java 基础.md"
+        "基础语法.md"
+      ]
+    }
+  ],
+  "/java/面试": [
+    {
+      text: "Java",
+      link: "/java/"
+    },
+    {
+      text: "面试宝典",
+      children: [
+        "Java 基础.md",
+        "Java 多线程",
+        "Redis.md"
       ]
     }
   ],
