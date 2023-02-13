@@ -40,6 +40,7 @@ export const zhSidebar = sidebar({
       children: [
         "Java 基础.md",
         "Java 多线程",
+        "MySQL.md",
         "Redis.md"
       ]
     }
