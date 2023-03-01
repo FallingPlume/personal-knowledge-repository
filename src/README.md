@@ -17,6 +17,11 @@ features:
     details: Unity 相关知识。
     link: /unity/
 
+  - title: 3D
+    icon: iconfont icon-minecraft
+    details: 
+    link: /3d
+
   - title: Minecraft Mod Dev
     icon: iconfont icon-minecraft
     details: 有关 Minecraft 模组开发的知识。Forge、Fabric、以及其他库等。

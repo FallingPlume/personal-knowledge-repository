@@ -46,12 +46,14 @@ export const zhSidebar = sidebar({
     }
   ],
   "/unity/": [
+    "/",
     "",
     "三维数学.md",
     {
       text: "Input System 中文文档",
       link: "/unity/Input System 中文文档",
-    }
+    },
+    "UTS2 Shader.md"
   ],
   "/unity/Input System 中文文档/": [
     {
@@ -77,6 +79,23 @@ export const zhSidebar = sidebar({
           text: "参考",
           children: []
         }
+      ]
+    }
+  ],
+  "/3d/": [
+    "/",
+    "",
+    {
+      text: "动漫角色建模流程",
+      link: "/3d/动漫角色建模流程/"
+    }
+  ],
+  "/3d/动漫角色建模流程/": [
+    {
+      text: "动漫角色建模流程",
+      children: [
+        "头部1.md",
+        "头部2.md"
       ]
     }
   ]
